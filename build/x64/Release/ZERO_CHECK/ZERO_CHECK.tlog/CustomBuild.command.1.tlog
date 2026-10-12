@@ -1,0 +1,10 @@
+^C:\USERS\DOUG\DOCUMENTS\CODEX\2026-10-11\REFERENCED-CHATGPT-CONVERSATION-THIS-IS-AN\OUTPUTS\MOVEMENT-SPEED-BENCH\BUILD\CMAKEFILES\0A643629E9AB481EE201D947A1410D34\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Doug/Documents/Codex/2026-10-11/referenced-chatgpt-conversation-this-is-an/outputs/movement-speed-bench -BC:/Users/Doug/Documents/Codex/2026-10-11/referenced-chatgpt-conversation-this-is-an/outputs/movement-speed-bench/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Doug/Documents/Codex/2026-10-11/referenced-chatgpt-conversation-this-is-an/outputs/movement-speed-bench/build/movement_speed_bench.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

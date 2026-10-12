@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Doug\Documents\Codex\2026-10-11\referenced-chatgpt-conversation-this-is-an\outputs\movement-speed-bench\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Doug\Documents\Codex\2026-10-11\referenced-chatgpt-conversation-this-is-an\outputs\movement-speed-bench\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6F66DB9D-4325-3253-A8D7-E1FDA49043D6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
